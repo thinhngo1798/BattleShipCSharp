@@ -1,0 +1,16 @@
+Microsoft (R) Visual C# Compiler version 4.7.3190.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+src\DeploymentController.cs(9,7): error CS0246: The type or namespace name 'NUnit' could not be found (are you missing a using directive or an assembly reference?)
+UnitTestProject1\UnitTest1.cs(2,17): error CS0234: The type or namespace name 'VisualStudio' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)
+src\Model\AIPlayer.cs(20,18): warning CS0660: 'AIPlayer.Location' defines operator == or operator != but does not override Object.Equals(object o)
+src\Model\AIPlayer.cs(20,18): warning CS0661: 'AIPlayer.Location' defines operator == or operator != but does not override Object.GetHashCode()
+src\DeploymentController.cs(204,10): error CS0246: The type or namespace name 'Test' could not be found (are you missing a using directive or an assembly reference?)
+src\DeploymentController.cs(204,10): error CS0246: The type or namespace name 'TestAttribute' could not be found (are you missing a using directive or an assembly reference?)
+UnitTestProject1\UnitTest1.cs(9,10): error CS0246: The type or namespace name 'TestMethod' could not be found (are you missing a using directive or an assembly reference?)
+UnitTestProject1\UnitTest1.cs(9,10): error CS0246: The type or namespace name 'TestMethodAttribute' could not be found (are you missing a using directive or an assembly reference?)
+UnitTestProject1\UnitTest1.cs(6,6): error CS0246: The type or namespace name 'TestClass' could not be found (are you missing a using directive or an assembly reference?)
+UnitTestProject1\UnitTest1.cs(6,6): error CS0246: The type or namespace name 'TestClassAttribute' could not be found (are you missing a using directive or an assembly reference?)
