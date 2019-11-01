@@ -12,7 +12,7 @@ using NUnit.Framework;
 /// The DeploymentController controls the players actions
 /// during the deployment phase.
 /// </summary>
-static class DeploymentController
+public static class DeploymentController
 {
     //Ship's top button is 98
 	private const int SHIPS_TOP = 98;
@@ -184,7 +184,7 @@ static class DeploymentController
 		return ShipName.None;
 	}
     //Testing version
-    private static ShipName GetShipMouseIsOverTest(Point2D pt)
+    public static ShipName GetShipMouseIsOverTest(Point2D pt)
     {
         foreach (ShipName sn in Enum.GetValues(typeof(ShipName)))
         {
@@ -210,7 +210,7 @@ static class DeploymentController
             //arrange
             ShipName shipNameTest = GetShipMouseIsOverTest(pt);
             //act
-            ShipName actual = ShipName.Destroyer;
+            ShipName actual = ShipName.None;
             //assert
             Assert.AreEqual(actual, shipNameTest);
         }
